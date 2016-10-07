@@ -1,5 +1,6 @@
-sudo yum update
-sudo yum install git
+#!/bin/bash
+yum update -y
+yum install git
 git clone https://github.com/VibinD/config-prj.git
 sudo su
 cd /home/centos/config-prj
