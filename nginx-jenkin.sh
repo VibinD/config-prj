@@ -1,10 +1,12 @@
 docker pull nginx;
 
-mkdir -p ~/docker-nginx/html;
+mkdir -p ~/docker-nginx;
 
-cd ~/docker-nginx/html;
+# mkdir -p ~/docker-nginx/html;
 
-cp /home/centos/config-prj/index.html ~/docker-nginx/html/;
+# cd ~/docker-nginx/html;
+
+# cp /home/centos/config-prj/index.html ~/docker-nginx/html/;
 
 cd ~/docker-nginx;
 
